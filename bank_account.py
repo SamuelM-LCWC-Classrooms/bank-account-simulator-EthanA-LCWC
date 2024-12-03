@@ -8,7 +8,7 @@ class Bank_account:
         if money <= self.__balance:
             self.__balance = self.__balance - money
         else:
-            print("Insufficient funds")
+            print("Insufficient funds.")
     def get_owner(self):
         return self.__owner
     def set_owner(self, new_name):
